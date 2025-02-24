@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outdoor Explorer - Your Adventure Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Gear Quest</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+            <button>Search</button>
+        </div>
+    </header>
+    
+    <section id="home" class="hero">
+        <!-- <h2>Find the Best Outdoor Gear</h2>
+        <p>Explore our collection of premium outdoor equipment.</p> -->
+        <button onclick="scrollToSection('products')">Shop Now</button>
+    </section>
+    
+    <section id="categories" class="category-section">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category-card">Camping</div>
+            <div class="category-card">Hiking</div>
+            <div class="category-card">footwear</div>
+            <div class="category-card">Clothing</div>
+        </div>
+    </section>
+    
+    <section id="products" class="product-section">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="tent.jpg" alt="Tent">
+                <h3>Camping Tent</h3>
+                <p>9,849.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="backpack.jpg" alt="Backpack">
+                <h3>Hiking Backpack</h3>
+                <p>7,579.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="boots.jpg" alt="Hiking Boots">
+                <h3>Hiking Boots</h3>
+                <p>11,985.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="boots_6.jpg" alt="Hiking Boots">
+                <h3>Hiking Boots</h3>
+                <p>11,985.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="boots_5.jpg" alt="Hiking Boots">
+                <h3>Hiking Boots</h3>
+                <p>11,985.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="boots_3.jpg" alt="Hiking Boots">
+                <h3>Hiking Boots</h3>
+                <p>11,985.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="boots_2.jpg" alt="Hiking Boots">
+                <h3>Hiking Boots</h3>
+                <p>11,985.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="boots_1.jpg" alt="Hiking Boots">
+                <h3>Hiking Boots</h3>
+                <p>11,985.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="cloth_4.jpg" alt="Hiking Boots">
+                <h3>Round Neck Jacket</h3>
+                <p>11,985.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="cloth_3.jpg" alt="Hiking Boots">
+                <h3>Trowsers</h3>
+                <p>11,985.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="cloth_2.jpg" alt="Hiking Boots">
+                <h3>Trowsers</h3>
+                <p>1,985.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="cloth_1.jpg" alt="Hiking Boots">
+                <h3>Jacket</h3>
+                <p>1,985.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Your one-stop shop for high-quality outdoor adventure gear.</p>
+    </section>
+    
+    <section id="cart" class="cart-section">
+        <h2>Your Cart</h2>
+        <ul class="cart-items">
+            <li class="cart-item">
+                <img src="tent.jpg" alt="Tent">
+                <div class="cart-item-details">
+                    <h3>Camping Tent</h3>
+                    <p>Perfect for your outdoor adventures.</p>
+                </div>
+                <span class="cart-item-price">₹9,849.99</span>
+                <button>Remove</button>
+            </li>
+            <li class="cart-item">
+                <img src="backpack.jpg" alt="Backpack">
+                <div class="cart-item-details">
+                    <h3>Hiking Backpack</h3>
+                    <p>Durable and spacious for your journeys.</p>
+                </div>
+                <span class="cart-item-price">₹7,579.99</span>
+                <button>Remove</button>
+            </li>
+        </ul>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </section>
+    
+    
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+
+    
+    <footer>
+        <div class="footer-container">
+          <div class="footer-links">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press Releases</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="#">Customer Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+          </div>
+          <p>&copy; <span id="currentYear"></span> Outdoor Explorer. All rights reserved.</p>
+        </div>
+      </footer>
+      
+    
+    <script src="script.js"></script>
+</body>
+</html>
